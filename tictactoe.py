@@ -123,7 +123,7 @@ def main():
                     displayboard()
                     while True:
                         oturn()
-                        turn()         
+                        xturn()         
                 elif answer == 'R': # Determins a random marker to start 
                     choices = ['x', 'o']
                     randomchoice = random.choice(choices)
